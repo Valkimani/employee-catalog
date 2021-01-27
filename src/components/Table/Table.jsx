@@ -2,6 +2,7 @@ import React from 'react';
 
 const Table = () => {
     return (
+        // added table stripped in the class for color contrast in the table//
         <table className="table table-striped">
         <thead>
           <tr>
@@ -15,22 +16,14 @@ const Table = () => {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="row">2NNaN6379754621</th>
+            <td><img src="https://randomuser.me/api/portraits/thumb/women/44.jpg"></img></td>
+            <td>Solene Marchand</td>
+            <td>solene.marchand@example.com</td>
+            <td>S5-69-23-75-36</td>
+            <td>S1968-10-21T03:51:09.544Z</td>
           </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
+          
         </tbody>
       </table>
     );
